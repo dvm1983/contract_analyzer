@@ -1,0 +1,9 @@
+openai==0.28
+langchain==0.2.6
+langchain_community==0.2.6
+docx2txt
+streamlit==1.36.0
+uvicorn==0.30.1
+pandas==2.2.2
+fastapi==0.0.2
+openpyxl==3.1.5

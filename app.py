@@ -68,5 +68,9 @@ if st.button("Process files") and contract_path is not None and csv_path is not 
     if response['status'] == 'OK':
         with open(results_zip_path, 'rb') as f:
             st.download_button('Download results', f, file_name='results.zip')
+        st.write(f"Contract analysis results:")
+        with open(result_csv_path, 'r') as f:
+            analysis_results = json.load(f)
+        st.json(analysis_results)
     else:
         st.write(f"ERROR while processing: {response['json']}")
