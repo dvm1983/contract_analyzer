@@ -1,0 +1,10 @@
+{
+    "port": 5000,
+    "tmpdir": "./tmpdir",
+    "openai.api_type": "azure",
+    "openai.api_key": "",
+    "openai.api_base": "",
+    "openai.api_version": "2024-05-01-preview",
+    "deployment_id": "", 
+    "model": "gpt-4"
+}
